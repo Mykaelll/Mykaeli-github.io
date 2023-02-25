@@ -1,0 +1,63 @@
+* {
+	box-sizing: border-box;
+} 
+body{
+    background-color: hsl(233, 47%, 7%);
+}
+.main{
+    text-align: center;
+    padding: 2rem 2rem;
+    margin: 10px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+ .child{
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;    
+} 
+.first{
+    background: hsl(244, 38%, 16%);
+}
+/* div{
+    margin: 50px;
+    width: 30%;
+    height: 30%;
+} */
+ p{
+    font-weight: 700;
+    font-family: inter;
+    font-size: 15px;
+}
+ p span {
+    color: hsl(277, 64%, 61%);
+}
+.block{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+ul {
+	background-color: transparent;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	text-transform: uppercase;
+	overflow: hidden; 
+	list-style: none;
+	position: sticky;
+}
+li {
+	display: inline-block;
+	text-decoration: none;
+    padding-right: 2em;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+li span{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: x-small;
+}
+img{
+    width: auto;
+    height: 240px;
+    background: hsl(277, 64%, 61%);
+} 
